@@ -4,7 +4,19 @@
 
 This project presents a **fully custom DSP48A1-based pipeline design** targeting the **Xilinx Spartan-6** FPGA family. It includes RTL development, simulation, linting, constraint specification, elaboration, synthesis, implementation, and bitstream generation.
 
-## 📌 Objective
+---
+
+## Full Design Reference
+
+- This design is based on the **DSP48A1 documentation and usage guidelines** from AMD:
+  [UG389 - Spartan-6 DSP48A1 Slice](https://docs.amd.com/v/u/en-US/ug389)
+
+### Full Design Block
+<img src="Images/full_design.png" width="50%" alt="Full Design Diagram"/>
+
+---
+
+## Objective
 
 Design and verify a DSP-like pipeline architecture using **Verilog HDL** and AMD/Xilinx’s **DSP48A1** primitive, covering:
 - 4 DSP paths
@@ -14,7 +26,7 @@ Design and verify a DSP-like pipeline architecture using **Verilog HDL** and AMD
 
 ---
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 
 - **Verilog HDL** — RTL Design  
 - **QuestaSim** — Simulation  
@@ -24,7 +36,7 @@ Design and verify a DSP-like pipeline architecture using **Verilog HDL** and AMD
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 
 ├── Constrain_File/ # .xdc / .ucf file for timing and pin constraints
@@ -37,7 +49,7 @@ Design and verify a DSP-like pipeline architecture using **Verilog HDL** and AMD
 
 ---
 
-## ✅ Design Highlights
+## Design Highlights
 
 - Modular RTL architecture supporting 4 configurable DSP paths
 - FSMs, muxes, arithmetic units, and pipelining
@@ -46,7 +58,7 @@ Design and verify a DSP-like pipeline architecture using **Verilog HDL** and AMD
 
 ---
 
-## 🧪 Verification: Waveforms per DSP Path
+## Verification: Waveforms per DSP Path
 
 ### Path 1
 <div style="display: flex; gap: 10px;">
@@ -74,7 +86,7 @@ Design and verify a DSP-like pipeline architecture using **Verilog HDL** and AMD
 
 ---
 
-## 🛠️ Elaboration, Synthesis & Implementation (Vivado)
+## Elaboration, Synthesis & Implementation (Vivado)
 
 - ✅ Linting Passed — *0 Warnings, 0 Errors*
 - ✅ Synthesis & Implementation — Successful
@@ -103,17 +115,7 @@ Achieved the following timing closure results:
 
 ---
 
-## 📜 Full Design Reference
-
-- This design is based on the **DSP48A1 documentation and usage guidelines** from AMD:
-  [UG389 - Spartan-6 DSP48A1 Slice](https://docs.amd.com/v/u/en-US/ug389)
-
-### Full Design Block
-<img src="Images/full_design.png" width="50%" alt="Full Design Diagram"/>
-
----
-
-## 📄 Documentation
+## Documentation
 
 A detailed project report (`Document.pdf`) is included in the repository with:
 - RTL design breakdown
@@ -124,10 +126,10 @@ A detailed project report (`Document.pdf`) is included in the repository with:
 
 ---
 
-## 🧠 Author
+## Author
 
 **Mazen Mohamed Hemdan**  
 Bachelor of Computer Engineering  
-Focus: Digital Design, Embedded Systems, Hardware Verification
+Focus: Digital Design, Computer Architecture, Hardware Verification
 
 
