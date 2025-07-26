@@ -38,14 +38,14 @@ Design and verify a DSP-like pipeline architecture using **Verilog HDL** and AMD
 
 ## Project Structure
 
-
-├── Constrain_File/ # .xdc / .ucf file for timing and pin constraints
-├── Do_File/ # QuestaSim DO scripts for batch simulation
-├── Images/ # Design images, waveforms, schematics, timing reports
-├── RTL_Verilog/ # Source Verilog HDL files
-├── Testbench_Code/ # Testbench and simulation code
-├── Document.pdf # Full project report (design + verification + results)
-
+```
+├── Constrain_File/     # .xdc / .ucf file for timing and pin constraints
+├── Do_File/            # QuestaSim DO scripts for batch simulation
+├── Images/             # Design images, waveforms, schematics, timing reports
+├── RTL_Verilog/        # Source Verilog HDL files
+├── Testbench_Code/     # Testbench and simulation code
+├── Document.pdf        # Full project report (design + verification + results)
+```
 
 ---
 
