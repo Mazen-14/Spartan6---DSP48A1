@@ -26,16 +26,6 @@ Design and verify a DSP-like pipeline architecture using **Verilog HDL** and AMD
 
 ---
 
-## Tools & Technologies
-
-- **Verilog HDL** — RTL Design  
-- **QuestaSim** — Simulation  
-- **QuestaLint** — Linting and static analysis  
-- **Vivado Design Suite** — Elaboration, Synthesis, Implementation, Bitstream Generation  
-- **Target FPGA:** Xilinx Spartan-6 (using DSP48A1 primitive)
-
----
-
 ## Project Structure
 
 ```
@@ -49,12 +39,13 @@ Design and verify a DSP-like pipeline architecture using **Verilog HDL** and AMD
 
 ---
 
-## Design Highlights
+## Tools & Technologies
 
-- Modular RTL architecture supporting 4 configurable DSP paths
-- FSMs, muxes, arithmetic units, and pipelining
-- 100 MHz clock constraint applied via UCF
-- Formal/functional simulation of all DSP paths
+- **Verilog HDL** — RTL Design  
+- **QuestaSim** — Simulation  
+- **QuestaLint** — Linting and static analysis  
+- **Vivado Design Suite** — Elaboration, Synthesis, Implementation, Bitstream Generation  
+- **Target FPGA:** Xilinx Spartan-6 (using DSP48A1 primitive)
 
 ---
 
@@ -90,8 +81,8 @@ Design and verify a DSP-like pipeline architecture using **Verilog HDL** and AMD
 
 - ✅ Linting Passed — *0 Warnings, 0 Errors*
 - ✅ Synthesis & Implementation — Successful
-- 🎯 **Bitstream Generation** — Completed
-- 📐 Includes both:
+- **Bitstream Generation** — Completed
+- Includes both:
   - RTL schematic  
   - Post-synthesis schematic  
 
@@ -103,7 +94,7 @@ Design and verify a DSP-like pipeline architecture using **Verilog HDL** and AMD
 
 ---
 
-## ⏱ Timing Analysis (Vivado)
+## Timing Analysis (Vivado)
 
 Achieved the following timing closure results:
 
